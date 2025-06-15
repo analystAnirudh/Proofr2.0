@@ -1,0 +1,17 @@
+/* Companies Section */
+.companies-section {
+    padding-bottom: 50px;
+}
+
+.companies-marquee {
+    background-color: var(--marquee-bg);
+    padding: 30px 0;
+    overflow: hidden;
+}
+
+.marquee {
+    display: flex;
+    animation: marquee 20s linear infinite;
+}
+
+/* Rest of your existing marquee styles... */
